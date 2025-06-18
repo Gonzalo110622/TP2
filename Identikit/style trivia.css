@@ -1,0 +1,5 @@
+body{background: red}
+body{text-align: center;}
+body{font-family: 'Courier New', monospace, sans-serif;}
+.opcion {display:inline-block;padding: 10px;margin: 10px;border-radius: 5px;background-color: #ff0000;transition: all 0.3s ease;cursor: pointer; text-decoration: none !important;color: rgb(255, 255, 255) !important;}
+.opcion:hover {background-color: #000000;transform: scale(1.05);}

@@ -1,0 +1,66 @@
+body {background: url("blog/avatar/fondo.avif") no-repeat center center fixed;
+background-size: cover;
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+text-align: center;
+margin: 0;
+padding: 0;}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    margin: 60px 475px;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+    object-position:center 20%;
+}
+nav li {margin-bottom: 10px;
+list-style: none;}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+  margin-top: 0;
+}
+
+nav a {
+  background-color: white;
+  border-radius: 40px;
+  padding: 10px 30px;
+  width: 375px;
+  text-align: center;
+  font-family: sans-serif;
+  display: block;
+  background: rgb(195, 247, 197);
+  border-top-left-radius: 0% 40px;
+  border-top-right-radius: 0% 40px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.3s ease;}
+
+nav a:hover {
+    transform: scale(1.05);}
+@media (max-width: 600px) {
+  .container {
+    max-width: 90%;
+    padding: 15px;
+    margin: 20px auto;}
+
+  nav a {
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 16px;}
+nav {flex-direction: column;align-items: center;}}
